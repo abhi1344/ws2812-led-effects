@@ -1,48 +1,48 @@
-# ?? WS2812 RGB LED Controller
+﻿# 🌈 WS2812 RGB LED Controller
 
 This project is a simple RGB LED control system using Arduino Nano and WS2812 addressable LEDs. It creates vibrant color effects using customizable animations.
 
 ---
 
-## ?? Components Used
+## 🔧 Components Used
 
-- Arduino Nano
-- WS2812 LED Strip (NeoPixel)
-- 5V DC Power Supply
-- 470O Resistor (Data line)
-- 1000�F Capacitor (recommended for stability)
-- Breadboard & Jumper wires
-
----
-
-## ?? Features
-
-- Custom light animations
-- Brightness and speed control (optional)
-- Uses Adafruit_NeoPixel library
-- Easy to expand for multiple LED strips
+- Arduino Nano  
+- WS2812 LED Strip (NeoPixel)  
+- 5V DC Power Supply  
+- 470Ω Resistor (Data line)  
+- 1000µF Capacitor (recommended for stability)  
+- Breadboard & Jumper wires  
 
 ---
 
-## ?? How It Works
+## 💡 Features
 
-- Arduino sends control signals to the data pin of the WS2812 LEDs.
-- The sketch cycles through different colors and effects.
-- You can edit the sketch to change animations, brightness, and number of LEDs.
+- Custom light animations  
+- Brightness and speed control (optional)  
+- Uses Adafruit_NeoPixel library  
+- Easy to expand for multiple LED strips  
 
 ---
 
-## ?? Preview
+## ⚙️ How It Works
+
+- Arduino sends control signals to the data pin of the WS2812 LEDs.  
+- The sketch cycles through different colors and effects.  
+- You can edit the sketch to change animations, brightness, and number of LEDs.  
+
+---
+
+## 📸 Preview
 
 ![RGB LED Preview](./Images/rgb_led_preview.jpg)
 
 ---
 
-## ?? Code
+## 💻 Code
 
 You can find the main code in:
 
-?? Code/ws2812_control.ino
+📂 Code/ws2812_control.ino
 
 Example snippet:
 
